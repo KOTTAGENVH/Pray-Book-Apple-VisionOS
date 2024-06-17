@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		461B6A862C0C788A00992917 /* Pray_BookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B6A852C0C788A00992917 /* Pray_BookApp.swift */; };
+		461B6A882C0C788A00992917 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B6A872C0C788A00992917 /* ContentView.swift */; };
+		461B6A8C2C0C788C00992917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461B6A8B2C0C788C00992917 /* Assets.xcassets */; };
+		461B6A8F2C0C788C00992917 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461B6A8E2C0C788C00992917 /* Preview Assets.xcassets */; };
+		461B6A992C0C788C00992917 /* Pray_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B6A982C0C788C00992917 /* Pray_BookTests.swift */; };
+		461B6AA32C0C788C00992917 /* Pray_BookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B6AA22C0C788C00992917 /* Pray_BookUITests.swift */; };
+		461B6AA52C0C788C00992917 /* Pray_BookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B6AA42C0C788C00992917 /* Pray_BookUITestsLaunchTests.swift */; };
+		461B6AB42C0C7E8400992917 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461B6AB32C0C7E8400992917 /* Launch Screen.storyboard */; };
+		461B6AB82C0C94E100992917 /* addPrayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B6AB72C0C94E100992917 /* addPrayer.swift */; };
+		463B3FD82C133A9500B2E4BB /* editPrayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B3FD72C133A9500B2E4BB /* editPrayer.swift */; };
+		463B3FDB2C133D2A00B2E4BB /* customComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 463B3FDA2C133D2A00B2E4BB /* customComponents.swift */; };
+		468D95ED2C10535400C68CD0 /* Prayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D95EC2C10535400C68CD0 /* Prayers.swift */; };
+		468D95F32C10EEED00C68CD0 /* PrayerDetailview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468D95F22C10EEED00C68CD0 /* PrayerDetailview.swift */; };
+		46ABD4C52C118E5E00ED1A2B /* AllPrayerViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ABD4C42C118E5E00ED1A2B /* AllPrayerViewModal.swift */; };
+		46AE096D2C16532B00C53E22 /* oneMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AE096C2C16532B00C53E22 /* oneMapView.swift */; };
+		46D2C48C2C13922F005EA8E2 /* addLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2C48B2C13922F005EA8E2 /* addLocation.swift */; };
+		46D2C48E2C13926A005EA8E2 /* maps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D2C48D2C13926A005EA8E2 /* maps.swift */; };
+		46E04C8E2C1517BC00C06D28 /* networkChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E04C8D2C1517BC00C06D28 /* networkChecker.swift */; };
+		46E04C972C15DF7300C06D28 /* allMaps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E04C962C15DF7200C06D28 /* allMaps.swift */; };
+		46E04C9A2C15DF9900C06D28 /* viewmapsmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E04C992C15DF9900C06D28 /* viewmapsmodel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		461B6A952C0C788C00992917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461B6A7A2C0C788900992917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461B6A812C0C788A00992917;
+			remoteInfo = "Pray Book";
+		};
+		461B6A9F2C0C788C00992917 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 461B6A7A2C0C788900992917 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 461B6A812C0C788A00992917;
+			remoteInfo = "Pray Book";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		461B6A822C0C788A00992917 /* Pray Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pray Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		461B6A852C0C788A00992917 /* Pray_BookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pray_BookApp.swift; sourceTree = "<group>"; };
+		461B6A872C0C788A00992917 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		461B6A8B2C0C788C00992917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		461B6A8E2C0C788C00992917 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		461B6A942C0C788C00992917 /* Pray BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pray BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		461B6A982C0C788C00992917 /* Pray_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pray_BookTests.swift; sourceTree = "<group>"; };
+		461B6A9E2C0C788C00992917 /* Pray BookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pray BookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		461B6AA22C0C788C00992917 /* Pray_BookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pray_BookUITests.swift; sourceTree = "<group>"; };
+		461B6AA42C0C788C00992917 /* Pray_BookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pray_BookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		461B6AB32C0C7E8400992917 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		461B6AB72C0C94E100992917 /* addPrayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPrayer.swift; sourceTree = "<group>"; };
+		463B3FD72C133A9500B2E4BB /* editPrayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editPrayer.swift; sourceTree = "<group>"; };
+		463B3FDA2C133D2A00B2E4BB /* customComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customComponents.swift; sourceTree = "<group>"; };
+		468D95EC2C10535400C68CD0 /* Prayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prayers.swift; sourceTree = "<group>"; };
+		468D95F22C10EEED00C68CD0 /* PrayerDetailview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerDetailview.swift; sourceTree = "<group>"; };
+		46ABD4C42C118E5E00ED1A2B /* AllPrayerViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPrayerViewModal.swift; sourceTree = "<group>"; };
+		46AE096C2C16532B00C53E22 /* oneMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oneMapView.swift; sourceTree = "<group>"; };
+		46D2C48B2C13922F005EA8E2 /* addLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addLocation.swift; sourceTree = "<group>"; };
+		46D2C48D2C13926A005EA8E2 /* maps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maps.swift; sourceTree = "<group>"; };
+		46E04C8A2C14DD2F00C06D28 /* Pray-Book-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pray-Book-Info.plist"; sourceTree = SOURCE_ROOT; };
+		46E04C8D2C1517BC00C06D28 /* networkChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkChecker.swift; sourceTree = "<group>"; };
+		46E04C962C15DF7200C06D28 /* allMaps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allMaps.swift; sourceTree = "<group>"; };
+		46E04C992C15DF9900C06D28 /* viewmapsmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = viewmapsmodel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		461B6A7F2C0C788A00992917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B6A912C0C788C00992917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B6A9B2C0C788C00992917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		461B6A792C0C788900992917 = {
+			isa = PBXGroup;
+			children = (
+				461B6AB32C0C7E8400992917 /* Launch Screen.storyboard */,
+				461B6A842C0C788A00992917 /* Pray Book */,
+				461B6A972C0C788C00992917 /* Pray BookTests */,
+				461B6AA12C0C788C00992917 /* Pray BookUITests */,
+				461B6A832C0C788A00992917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		461B6A832C0C788A00992917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				461B6A822C0C788A00992917 /* Pray Book.app */,
+				461B6A942C0C788C00992917 /* Pray BookTests.xctest */,
+				461B6A9E2C0C788C00992917 /* Pray BookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		461B6A842C0C788A00992917 /* Pray Book */ = {
+			isa = PBXGroup;
+			children = (
+				46E04C932C15990800C06D28 /* ViewModel */,
+				46E04C922C1598D300C06D28 /* Model */,
+				46E04C8F2C1519C700C06D28 /* NetworkChecker */,
+				46E04C8A2C14DD2F00C06D28 /* Pray-Book-Info.plist */,
+				461B6AB52C0C816100992917 /* Views */,
+				461B6A852C0C788A00992917 /* Pray_BookApp.swift */,
+				461B6A8B2C0C788C00992917 /* Assets.xcassets */,
+				461B6A8D2C0C788C00992917 /* Preview Content */,
+			);
+			path = "Pray Book";
+			sourceTree = "<group>";
+		};
+		461B6A8D2C0C788C00992917 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				461B6A8E2C0C788C00992917 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		461B6A972C0C788C00992917 /* Pray BookTests */ = {
+			isa = PBXGroup;
+			children = (
+				461B6A982C0C788C00992917 /* Pray_BookTests.swift */,
+			);
+			path = "Pray BookTests";
+			sourceTree = "<group>";
+		};
+		461B6AA12C0C788C00992917 /* Pray BookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				461B6AA22C0C788C00992917 /* Pray_BookUITests.swift */,
+				461B6AA42C0C788C00992917 /* Pray_BookUITestsLaunchTests.swift */,
+			);
+			path = "Pray BookUITests";
+			sourceTree = "<group>";
+		};
+		461B6AB52C0C816100992917 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				463B3FD92C133CFD00B2E4BB /* Components */,
+				46ABD4C12C118CCA00ED1A2B /* Scenes */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		463B3FD62C13318700B2E4BB /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				463B3FD72C133A9500B2E4BB /* editPrayer.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		463B3FD92C133CFD00B2E4BB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				463B3FDA2C133D2A00B2E4BB /* customComponents.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		46ABD4C12C118CCA00ED1A2B /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				46AE096B2C16531200C53E22 /* ViewOneMap */,
+				46AE09692C1652DE00C53E22 /* AddPrayers */,
+				46E04C952C15DF5000C06D28 /* ViewAllMaps */,
+				46D2C48A2C1391FF005EA8E2 /* AddMaps */,
+				463B3FD62C13318700B2E4BB /* Edit */,
+				46ABD4C62C11EBCC00ED1A2B /* ViewOnePrayer */,
+				46ABD4C32C118D4900ED1A2B /* View_Prayers */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		46ABD4C32C118D4900ED1A2B /* View_Prayers */ = {
+			isa = PBXGroup;
+			children = (
+				461B6A872C0C788A00992917 /* ContentView.swift */,
+			);
+			path = View_Prayers;
+			sourceTree = "<group>";
+		};
+		46ABD4C62C11EBCC00ED1A2B /* ViewOnePrayer */ = {
+			isa = PBXGroup;
+			children = (
+				468D95F22C10EEED00C68CD0 /* PrayerDetailview.swift */,
+			);
+			path = ViewOnePrayer;
+			sourceTree = "<group>";
+		};
+		46AE09692C1652DE00C53E22 /* AddPrayers */ = {
+			isa = PBXGroup;
+			children = (
+				461B6AB72C0C94E100992917 /* addPrayer.swift */,
+			);
+			path = AddPrayers;
+			sourceTree = "<group>";
+		};
+		46AE096B2C16531200C53E22 /* ViewOneMap */ = {
+			isa = PBXGroup;
+			children = (
+				46AE096C2C16532B00C53E22 /* oneMapView.swift */,
+			);
+			path = ViewOneMap;
+			sourceTree = "<group>";
+		};
+		46D2C48A2C1391FF005EA8E2 /* AddMaps */ = {
+			isa = PBXGroup;
+			children = (
+				46D2C48B2C13922F005EA8E2 /* addLocation.swift */,
+			);
+			path = AddMaps;
+			sourceTree = "<group>";
+		};
+		46E04C8F2C1519C700C06D28 /* NetworkChecker */ = {
+			isa = PBXGroup;
+			children = (
+				46E04C8D2C1517BC00C06D28 /* networkChecker.swift */,
+			);
+			path = NetworkChecker;
+			sourceTree = "<group>";
+		};
+		46E04C922C1598D300C06D28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				468D95EC2C10535400C68CD0 /* Prayers.swift */,
+				46D2C48D2C13926A005EA8E2 /* maps.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46E04C932C15990800C06D28 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				46E04C982C15DF7F00C06D28 /* ViewMaps */,
+				46E04C942C15991600C06D28 /* ViewPrayers */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		46E04C942C15991600C06D28 /* ViewPrayers */ = {
+			isa = PBXGroup;
+			children = (
+				46ABD4C42C118E5E00ED1A2B /* AllPrayerViewModal.swift */,
+			);
+			path = ViewPrayers;
+			sourceTree = "<group>";
+		};
+		46E04C952C15DF5000C06D28 /* ViewAllMaps */ = {
+			isa = PBXGroup;
+			children = (
+				46E04C962C15DF7200C06D28 /* allMaps.swift */,
+			);
+			path = ViewAllMaps;
+			sourceTree = "<group>";
+		};
+		46E04C982C15DF7F00C06D28 /* ViewMaps */ = {
+			isa = PBXGroup;
+			children = (
+				46E04C992C15DF9900C06D28 /* viewmapsmodel.swift */,
+			);
+			path = ViewMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		461B6A812C0C788A00992917 /* Pray Book */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461B6AA82C0C788C00992917 /* Build configuration list for PBXNativeTarget "Pray Book" */;
+			buildPhases = (
+				461B6A7E2C0C788A00992917 /* Sources */,
+				461B6A7F2C0C788A00992917 /* Frameworks */,
+				461B6A802C0C788A00992917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pray Book";
+			productName = "Pray Book";
+			productReference = 461B6A822C0C788A00992917 /* Pray Book.app */;
+			productType = "com.apple.product-type.application";
+		};
+		461B6A932C0C788C00992917 /* Pray BookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461B6AAB2C0C788C00992917 /* Build configuration list for PBXNativeTarget "Pray BookTests" */;
+			buildPhases = (
+				461B6A902C0C788C00992917 /* Sources */,
+				461B6A912C0C788C00992917 /* Frameworks */,
+				461B6A922C0C788C00992917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461B6A962C0C788C00992917 /* PBXTargetDependency */,
+			);
+			name = "Pray BookTests";
+			productName = "Pray BookTests";
+			productReference = 461B6A942C0C788C00992917 /* Pray BookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		461B6A9D2C0C788C00992917 /* Pray BookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 461B6AAE2C0C788C00992917 /* Build configuration list for PBXNativeTarget "Pray BookUITests" */;
+			buildPhases = (
+				461B6A9A2C0C788C00992917 /* Sources */,
+				461B6A9B2C0C788C00992917 /* Frameworks */,
+				461B6A9C2C0C788C00992917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				461B6AA02C0C788C00992917 /* PBXTargetDependency */,
+			);
+			name = "Pray BookUITests";
+			productName = "Pray BookUITests";
+			productReference = 461B6A9E2C0C788C00992917 /* Pray BookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		461B6A7A2C0C788900992917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					461B6A812C0C788A00992917 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					461B6A932C0C788C00992917 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 461B6A812C0C788A00992917;
+					};
+					461B6A9D2C0C788C00992917 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 461B6A812C0C788A00992917;
+					};
+				};
+			};
+			buildConfigurationList = 461B6A7D2C0C788900992917 /* Build configuration list for PBXProject "Pray Book" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 461B6A792C0C788900992917;
+			productRefGroup = 461B6A832C0C788A00992917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				461B6A812C0C788A00992917 /* Pray Book */,
+				461B6A932C0C788C00992917 /* Pray BookTests */,
+				461B6A9D2C0C788C00992917 /* Pray BookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		461B6A802C0C788A00992917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461B6AB42C0C7E8400992917 /* Launch Screen.storyboard in Resources */,
+				461B6A8F2C0C788C00992917 /* Preview Assets.xcassets in Resources */,
+				461B6A8C2C0C788C00992917 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B6A922C0C788C00992917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B6A9C2C0C788C00992917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		461B6A7E2C0C788A00992917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461B6A882C0C788A00992917 /* ContentView.swift in Sources */,
+				468D95F32C10EEED00C68CD0 /* PrayerDetailview.swift in Sources */,
+				46D2C48E2C13926A005EA8E2 /* maps.swift in Sources */,
+				461B6AB82C0C94E100992917 /* addPrayer.swift in Sources */,
+				463B3FD82C133A9500B2E4BB /* editPrayer.swift in Sources */,
+				46E04C9A2C15DF9900C06D28 /* viewmapsmodel.swift in Sources */,
+				468D95ED2C10535400C68CD0 /* Prayers.swift in Sources */,
+				461B6A862C0C788A00992917 /* Pray_BookApp.swift in Sources */,
+				463B3FDB2C133D2A00B2E4BB /* customComponents.swift in Sources */,
+				46D2C48C2C13922F005EA8E2 /* addLocation.swift in Sources */,
+				46ABD4C52C118E5E00ED1A2B /* AllPrayerViewModal.swift in Sources */,
+				46E04C972C15DF7300C06D28 /* allMaps.swift in Sources */,
+				46AE096D2C16532B00C53E22 /* oneMapView.swift in Sources */,
+				46E04C8E2C1517BC00C06D28 /* networkChecker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B6A902C0C788C00992917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461B6A992C0C788C00992917 /* Pray_BookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461B6A9A2C0C788C00992917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461B6AA32C0C788C00992917 /* Pray_BookUITests.swift in Sources */,
+				461B6AA52C0C788C00992917 /* Pray_BookUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		461B6A962C0C788C00992917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461B6A812C0C788A00992917 /* Pray Book */;
+			targetProxy = 461B6A952C0C788C00992917 /* PBXContainerItemProxy */;
+		};
+		461B6AA02C0C788C00992917 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 461B6A812C0C788A00992917 /* Pray Book */;
+			targetProxy = 461B6A9F2C0C788C00992917 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		461B6AA62C0C788C00992917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		461B6AA72C0C788C00992917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		461B6AA92C0C788C00992917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pray Book/Preview Content\"";
+				DEVELOPMENT_TEAM = BA4ULKZFP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pray-Book-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pray Book";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show the user location.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nowen.Pray-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		461B6AAA2C0C788C00992917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pray Book/Preview Content\"";
+				DEVELOPMENT_TEAM = BA4ULKZFP8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pray-Book-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Pray Book";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Show the user location.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nowen.Pray-Book";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		461B6AAC2C0C788C00992917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA4ULKZFP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nowen.Pray-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pray Book.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pray Book";
+			};
+			name = Debug;
+		};
+		461B6AAD2C0C788C00992917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA4ULKZFP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nowen.Pray-BookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pray Book.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Pray Book";
+			};
+			name = Release;
+		};
+		461B6AAF2C0C788C00992917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA4ULKZFP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nowen.Pray-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pray Book";
+			};
+			name = Debug;
+		};
+		461B6AB02C0C788C00992917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BA4ULKZFP8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nowen.Pray-BookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pray Book";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		461B6A7D2C0C788900992917 /* Build configuration list for PBXProject "Pray Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461B6AA62C0C788C00992917 /* Debug */,
+				461B6AA72C0C788C00992917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461B6AA82C0C788C00992917 /* Build configuration list for PBXNativeTarget "Pray Book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461B6AA92C0C788C00992917 /* Debug */,
+				461B6AAA2C0C788C00992917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461B6AAB2C0C788C00992917 /* Build configuration list for PBXNativeTarget "Pray BookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461B6AAC2C0C788C00992917 /* Debug */,
+				461B6AAD2C0C788C00992917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		461B6AAE2C0C788C00992917 /* Build configuration list for PBXNativeTarget "Pray BookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				461B6AAF2C0C788C00992917 /* Debug */,
+				461B6AB02C0C788C00992917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 461B6A7A2C0C788900992917 /* Project object */;
+}
