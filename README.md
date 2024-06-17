@@ -56,16 +56,16 @@ The view searching location screen of the Vision OS App
 4. Added padding among search
    
 (b) Why would someone want to invest on your project idea
-Unique solution which caters to a wider market.
+1. Unique solution which caters to a wider market.
 
 (c) Further enhancements you propose
-For the vision pro the ui needs to be more customised
+1. For the vision pro the ui needs to be more customised
 
 (d) How would you commercialize this product
-It would be totally free
+1. It would be totally free
 
 #### 06. Reflection
 
-Challenges that you faced in doing this part of the assingment (other than know technical issues of getting hold of a proper Mac machine).
+1. Challenges that you faced in doing this part of the assingment (other than know technical issues of getting hold of a proper Mac machine).
 How would have approached this Assignment differently.
 There werent much of a challenge in completing this assignment. I already got the taste of swiftui from the labs and my development experience based on other languages.
